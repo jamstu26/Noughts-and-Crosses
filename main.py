@@ -26,7 +26,6 @@ def playerwon(playerturn,gameboard):
     elif x=="2":
         os._exit(0)
 
-
 def playgame():
     playerturn=1
     playing=True
@@ -97,14 +96,6 @@ def playgame():
         elif gameboardlist[2][0]==gameboardlist[1][1]==gameboardlist[0][2] and gameboardlist[2][0]!='_':
             playing=False
             playerwon(playerturn,gameboard)
-
-    
-
-
-                            
-
-            
-        
 
 def main():
     printtitle()
